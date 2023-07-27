@@ -9,25 +9,27 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    environment:
-      name: github-pages
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Build React app
+        working-directory: Client
         run: |
-          cd Client  # Assuming your React app is in the "Client" directory
           npm install
           npm run build
-          echo '/*  /index.html 200' > dist/_redirects  # Updated path to "dist" directory
+          echo '/*  /index.html 200' > build/_redirects
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.REPOSITORY_TOKEN }}
-          publish_dir: Client/dist  # Updated path to "dist" directory
+          publish_dir: Client/build  # Change to the correct build directory
 
     outputs:
       deployment-url: ${{ steps.deployment.outputs.page_url }}
