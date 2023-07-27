@@ -43,14 +43,14 @@ function Portfolio() {
             <div className="portfolio-container">
               <div className="first-sticker-container">
                 <img
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/RX-78-2.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/RX-78-2.svg"
                   alt="Sticker 1"
                   className="sticker"
                 />
               </div>
               <div className="second-sticker-container">
                 <img
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/Chars-Zaku.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/Chars-Zaku.svg"
                   alt="Sticker 1"
                   className="sticker"
                 />
@@ -101,7 +101,7 @@ function Portfolio() {
               <div className="first-sticker-container">
                 <img
                   style={{ width: "200px" }}
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/Chocotonic-1.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/Chocotonic-1.svg"
                   alt="Sticker 1"
                   className="sticker chocolate-bar"
                 />
@@ -109,7 +109,7 @@ function Portfolio() {
               <div className="second-sticker-container">
                 <img
                   style={{ width: "125px" }}
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/Chocotonic-2.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/Chocotonic-2.svg"
                   alt="Sticker 1"
                   className="sticker"
                 />
@@ -160,14 +160,14 @@ function Portfolio() {
             <div className="portfolio-container">
               <div className="first-sticker-container">
                 <img
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/Hamburger.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/Hamburger.svg"
                   alt="Sticker 1"
                   className="sticker"
                 />
               </div>
               <div className="second-sticker-container">
                 <img
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/Cocktail.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/Cocktail.svg"
                   alt="Sticker 1"
                   className="sticker"
                 />
@@ -217,7 +217,7 @@ function Portfolio() {
             <div className="portfolio-container">
               <div className="first-sticker-container">
                 <img
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/Gameboy.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/Gameboy.svg"
                   alt="Sticker 1"
                   className="sticker gameboy"
                 />
@@ -225,7 +225,7 @@ function Portfolio() {
               <div className="second-sticker-container">
                 <img
                   style={{ width: "120px" }}
-                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/ac5345068a72016d0e6ffa6c3614e55cbfc53b91/.github/images/icons/Pokemon-Blue.svg"
+                  src="https://raw.githubusercontent.com/Evan-Roberts-808/folio/main/.github/images/icons/Pokemon-Blue.svg"
                   alt="Sticker 1"
                   className="sticker"
                 />
