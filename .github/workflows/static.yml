@@ -21,13 +21,13 @@ jobs:
           cd Client  # Assuming your React app is in the "Client" directory
           npm install
           npm run build
-          echo '/*  /index.html 200' > build/_redirects
+          echo '/*  /index.html 200' > dist/_redirects  # Updated path to "dist" directory
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.REPOSITORY_TOKEN }}
-          publish_dir: Client/build
+          publish_dir: Client/dist  # Updated path to "dist" directory
 
     outputs:
       deployment-url: ${{ steps.deployment.outputs.page_url }}
