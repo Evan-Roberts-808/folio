@@ -78,7 +78,7 @@ function Portfolio() {
                     Flask-Restful · SQLAlchemy
                   </p>
                   <div className="button-container">
-                    <a href="https://gunplapal.onrender.com" target="_blank">
+                    <a href="https://gunpla-pal.vercel.app" target="_blank">
                       <button className="btn">View Project</button>
                     </a>
                     <a
@@ -138,7 +138,7 @@ function Portfolio() {
                     Flask-Restful · Flask-SQLAlchemy
                   </p>
                   <div className="button-container">
-                    <a href="https://chocotonic.onrender.com" target="_blank">
+                    <a href="https://chocotonic.vercel.app" target="_blank">
                       <button className="btn">View Project</button>
                     </a>
                     <a
@@ -193,7 +193,7 @@ function Portfolio() {
                   <p>React · React Router · React-Bootstrap</p>
                   <div className="button-container">
                     <a
-                      href="https://main--splendorous-frangollo-74c2dd.netlify.app"
+                      href="https://bites-and-brews.vercel.app"
                       target="_blank"
                     >
                       <button className="btn">View Project</button>
